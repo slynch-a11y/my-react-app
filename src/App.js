@@ -9,11 +9,11 @@ export default function App() {
 	return (
 		<Router>
 			<div className="bg-yale">
-				<div className="container pt-5" style={{ minHeight: '500px' }}>
+				<div className="container pt-5" style={{ minHeight: '700px' }}>
 					<div className="row">
-						<header className="col-3">
+						<div className="col-3">
 							My Awesome Website
-							<nav className="mt-5">
+							<div className="mt-5">
 								<ul>
 									<li>
 										<Link to="/">Home</Link>
@@ -25,9 +25,9 @@ export default function App() {
 										<Link to="/contact-us">Contact Us</Link>
 									</li>
 								</ul>
-							</nav>
-						</header>
-						<main className="col">
+							</div>
+						</div>
+						<div className="col">
 							<Switch>
 								<Route path="/about">
 									<About />
@@ -39,11 +39,10 @@ export default function App() {
 									<Home />
 								</Route>
 							</Switch>
-						</main>
+						</div>
 					</div>
 				</div>
 			</div>
-			<footer className="container mt-3">Here is my footer </footer>
 		</Router>
 	);
 }
