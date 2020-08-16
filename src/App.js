@@ -12,7 +12,7 @@ export default function App() {
 				<div className="container pt-5" style={{ minHeight: '700px' }}>
 					<div className="row">
 						<div className="col-3">
-							My Awesome Website
+							React App
 							<div className="mt-5">
 								<ul>
 									<li>

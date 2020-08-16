@@ -5,7 +5,7 @@ function Home() {
 	// // Similar to componentDidMount and componentDidUpdate:
 	// useEffect(() => {
 	// 	// Update the document title using the browser API
-	// 	document.title = "Home | My Awesome Website";
+	// 	document.title = "Home | React App";
 	// });
 	return (
 		<div>
