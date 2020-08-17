@@ -8,7 +8,7 @@ import Contact from './pages/contact';
 export default function App() {
 	return (
 		<Router>
-			<div className="bg-yale">
+			<div className="bg-secondar">
 				<div className="container pt-5" style={{ minHeight: '700px' }}>
 					<div className="row">
 						<div className="col-3">
