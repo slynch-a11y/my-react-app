@@ -12,7 +12,9 @@ function About() {
 						Click me
 					</button>
 				</div>
-				<div className="col mt-3 display-1">{count >= 1 ? <div aria-live="polite">{count}</div> : null}</div>
+				<div className="col mt-3 display-1">
+					{count >= 1 ? <div aria-live="polite">{count}</div> : null}
+				</div>
 			</div>
 		</div>
 	);
