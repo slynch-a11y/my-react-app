@@ -34,6 +34,6 @@
     ]
   },
   "devDependencies": {
-    "react-axe": "^3.5.3"
+    "@axe-core/react": "^4.1.1-alpha.85"
   }
 }

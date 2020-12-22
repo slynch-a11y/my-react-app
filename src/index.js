@@ -1,14 +1,16 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
+
 import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
+const React = require('react');
+const ReactDOM = require('react-dom');
 
- 
 if (process.env.NODE_ENV !== 'production') {
-  var axe = require('react-axe');
+  const axe = require('@axe-core/react');
   axe(React, ReactDOM, 1000);
 }
+ 
+
 
 ReactDOM.render(
   <React.StrictMode>
